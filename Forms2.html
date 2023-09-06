@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>personal Inforamation:</legend>
+    
+    <form action="login">
+        <label for="fname"> First Name:</label>
+        <input type="text" id="fname" name="fname" value="Enter ur first name:"> <br>
+        <br>
+        <label for="Lname">Last Name:</label>
+        <input type="text" name="Lname" id="Lname" value="Enter ur last name ">
+        <br><br>
+        <label for="Email"> E-mail:</label>
+        <input type="text" name="Email" id="Email" value="Enter ur Email">
+        <br><br>
+        <label for="password"> password:</label>
+        <input type="text" name="password" id="password" value="Enter ur password">
+        <br>
+        <br><label for="cpass"> Confirm password:</label>
+        <input type="text" name="cpass" id="cpass" value="Confirm ur password">
+        <br><br>
+        <label for="gen"> Gender:</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female"  value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <label for="other"> Other</label>
+       
+        <br><br>
+        <label for="birth">Birthday:</label>
+        <input type="date" id="birth" name="birth" >
+    </fieldset>
+        <fieldset>
+            <legend>Additional Inforamation:</legend>
+            <label for="address">Address:</label>
+        <textarea id="address" name="address" placeholder="Enter your address" rows="4" cols="50"></textarea>
+        <br><br>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected>USA</option>
+            <option value="India">India</option>
+            <option value="USA">United States</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">United Kingdom</option>
+            <option value="Australia">Australia</option>
+            
+        </select>
+        <br><br>
+        <label for="Sub"> Subscribe to Newsletter:</label>
+        <input type="checkbox" id="sub" name="sub" value="Yes,">
+        <label for="s">yes,subscribe me to the Newsletter</label>
+
+        </fieldset>
+        <fieldset>
+            <legend>Terms and Conditions</legend>
+            <label for="a"> I accept the terms and conditions:
+                <input type="checkbox" name="a" id="a">
+            </label>
+        </fieldset>
+        <br>
+
+        <button>submit</button>
+    </form>
+   
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+    <h3>This is my table</h3>
+    <table border="2px" style="border-collapse: collapse; height: 100px; width: 180px;">
+        <tr>
+            <th>name</th>
+            <th>age</th>
+            <th>last name</th>
+        </tr>
+        <tr>
+            <td>Mamatha</td>
+            <td>21</td>
+            <td>Pawar</td>
+        </tr>
+        <tr>
+            <td>Mounika</td>
+            <td>19</td>
+            <td>Pawar</td>
+        </tr>
+    </table>
+    <br>
+
+    <table border="2px" style="border-collapse: collapse; height: 100px; width: 180px;">
+        <caption style=" color: green;">Coloumn Span </caption>
+        <tr>
+            <th colspan="2">name</th>
+            <th>age</th>
+            <th>last name</th>
+        </tr>
+        <tr>
+            <td>Mamatha</td>
+            <td>21</td>
+            <td>Pawar</td>
+        </tr>
+        <tr>
+            <td>Mounika</td>
+            <td>19</td>
+            <td>Pawar</td>
+        </tr>
+    </table>
+    <br>
+    <table border="2px" style="border-collapse: collapse; height: 100px; width: 180px;">
+        <caption style="color: blueviolet;"> Coloum Span </caption>
+        <tr>
+            <th colspan="2">name</th>
+        
+            <th>age</th>
+            <th>Id</th>
+        </tr>
+        <tr>
+            <td>Mamatha</td>
+            <td>Pawar</td>
+            <td>21</td>
+            <td>09</td>
+        </tr>
+        <tr>
+            <td>Mounika</td>
+            <td> giri</td>
+            <td>19</td>
+            <td>08</td>
+        </tr>
+        
+        <tr>
+            <td>munna</td>
+            <td>kathri</td>
+
+            <td>21</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>Anitha</td>
+            <td>Solanke</td>
+            <td>19</td>
+            <td>9</td>
+        </tr>
+    </table>
+    
+    
+    <br>
+
+    
+    <table border="2px" style="border-collapse: collapse;">
+        <!-- <thead>Row Span</thead> -->
+        <caption style="color: blue;">Row span</caption>
+        <tr>
+        <th rowspan="2"> Name</th>
+        <td>Mamatha</td>
+        <td>Mounika</td>
+        
+        </tr>
+        <tr>
+            <td>Pawar</td>
+            <td>Pawar</td>
+
+        </tr>
+        <tr>
+            <th>age</th>
+            <td>21</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <th>id</th>
+            <td>03</td>
+            <td>09</td>
+        </tr>
+
+        
+
+    </table>
+    <br>
+    <table border="2" style="border-collapse: collapse;">
+        <caption style="color: brown;">thead,tbody,tfoot</caption>
+        <thead> 
+            <tr>
+                <th>Name</th>
+                <th>age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> Mamatha</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Mounika
+                    <td>21</td>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>sum</td>
+                <td>42</td>
+            </tr>
+        </tfoot>
+
+
+    </table>
+</body>
+</html>
